@@ -1,0 +1,31 @@
+$primary-clr: #12a84e;
+$secondary-clr: #ffffff;
+
+@font-face {
+    font-family: 'Ananda Hastakchyar';
+    src: url(/asset/fonts/AnandaHastakchyar.ttf);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@import 'header';
+@import 'main';
+@import 'footer';

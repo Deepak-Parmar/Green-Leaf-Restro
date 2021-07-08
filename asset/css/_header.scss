@@ -1,0 +1,107 @@
+#header {
+    height: 540px;
+    background: url(../images/banner-bg.jpg) center center no-repeat;
+    background-size: cover;
+
+    background-color: brown;
+
+    #contact-menu {
+        border-bottom: dashed 1px #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 6em 0 6em;
+
+        #social-icons {
+            cursor: default;
+            color: #fff;
+
+            ul li {
+                display: inline-block;
+                padding: .5em;
+                font-size: .9rem;
+    
+                a {color: $secondary-clr;}
+            }
+        }
+
+        #contact-list {
+            @extend #social-icons;
+
+            ul li {
+                margin-left: 3em;
+                padding: 1.2em 0 1.2em 0;
+            }
+        }
+    }
+
+    #main-menu {
+        padding: 0 6.5em 0 6.5em;
+        //height: 4.9em;
+        //background-color: #ffffffab;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .logo {
+                display: inline-block;
+                margin-right: 2em;
+            }
+
+            .title {
+                display: inline-block;
+                font-weight: medium;
+                font-size: 1.4rem;
+                color: $primary-clr;
+            }
+        }
+
+        #navigation {
+            li {display: inline-block;}
+
+            .nav-link {
+                font-size: .9em;
+                padding: 2em 1em;
+                text-align: right;
+            }
+        }
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+
+        h1:first-child {
+            line-height: 2;
+            font-weight: 400;
+            font-size: 3.8ch;
+            font-family: 'Ananda Hastakchyar';
+            color: #fff;
+        }
+
+        h1 {
+            font-weight: 700;
+            text-shadow: 0 0px 2px #000;
+        }
+
+        .cta {
+            margin-top: 6.5em;
+            padding: .45em 1.6em;
+            border-radius: 10px;
+            color: $primary-clr !important;
+            font-weight: 600;
+            font-size: large;
+            background-color: #fff;
+        }
+    }
+}
