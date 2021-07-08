@@ -1,10 +1,9 @@
 @font-face {
-  font-family: 'Ananda Hastakchyar';
-  src: url(/asset/fonts/AnandaHastakchyar.ttf);
+  font-family: "Ananda Hastakchyar";
+  src: url(../fonts/AnandaHastakchyar.ttf);
 }
-
 body {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 a {
@@ -29,125 +28,80 @@ ul {
   background-size: cover;
   background-color: brown;
 }
-
 #header #contact-menu {
   border-bottom: dashed 1px #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 6em 0 6em;
 }
-
 #header #contact-menu #social-icons, #header #contact-menu #contact-list {
   cursor: default;
   color: #fff;
 }
-
 #header #contact-menu #social-icons ul li, #header #contact-menu #contact-list ul li {
   display: inline-block;
-  padding: .5em;
-  font-size: .9rem;
+  padding: 0.5em;
+  font-size: 0.9rem;
 }
-
 #header #contact-menu #social-icons ul li a, #header #contact-menu #contact-list ul li a {
   color: #ffffff;
 }
-
 #header #contact-menu #contact-list ul li {
   margin-left: 3em;
   padding: 1.2em 0 1.2em 0;
 }
-
 #header #main-menu {
   padding: 0 6.5em 0 6.5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #header #main-menu .brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 #header #main-menu .brand .logo {
   display: inline-block;
   margin-right: 2em;
 }
-
 #header #main-menu .brand .title {
   display: inline-block;
   font-weight: medium;
   font-size: 1.4rem;
   color: #12a84e;
 }
-
 #header #main-menu #navigation li {
   display: inline-block;
 }
-
 #header #main-menu #navigation .nav-link {
-  font-size: .9em;
+  font-size: 0.9em;
   padding: 2em 1em;
   text-align: right;
 }
-
 #header .banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 400px;
 }
-
 #header .banner h1:first-child {
   line-height: 2;
   font-weight: 400;
   font-size: 3.8ch;
-  font-family: 'Ananda Hastakchyar';
+  font-family: "Ananda Hastakchyar";
   color: #fff;
 }
-
 #header .banner h1 {
   font-weight: 700;
   text-shadow: 0 0px 2px #000;
 }
-
 #header .banner .cta {
   margin-top: 6.5em;
-  padding: .45em 1.6em;
+  padding: 0.45em 1.6em;
   border-radius: 10px;
   color: #12a84e !important;
   font-weight: 600;
@@ -158,54 +112,42 @@ ul {
 main {
   padding-top: 6.3em;
 }
-
 main .post {
   border: 1px solid rgba(169, 169, 169, 0.5);
   margin-bottom: 2.5em;
   height: 360px;
 }
-
 main .post:hover {
   border-color: #12a84e;
 }
-
 main .post img {
   width: 360px;
 }
-
 main .post .post-image {
-  background: url(/asset/images/blog-image.jpg) no-repeat center center;
+  background: url(../images/blog-image.jpg) no-repeat center center;
   background-size: cover;
 }
-
 main .post .post-info {
   padding-left: 2em;
 }
-
 main .post .post-info .post-title {
   font-weight: 800;
   line-height: 2.5em;
   color: #12a84e !important;
 }
-
 main .post .post-info .post-title:hover {
   color: #000 !important;
 }
-
 main .post .post-info .post-meta {
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 600;
   margin-bottom: 1.8em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #000;
 }
-
 main .post .post-info .post-meta span {
   margin-right: 2em;
 }
-
 main .post .post-info .post-desc {
   height: 150px;
   max-height: 150px;
@@ -214,17 +156,14 @@ main .post .post-info .post-desc {
   color: #5c5c5c;
   font-weight: 600;
 }
-
 main .post .post-info .post-cta {
-  padding: .7em 1.5em;
+  padding: 0.7em 1.5em;
   border: 1px solid transparent;
   background-color: #12a84e;
   color: #fff;
   font-weight: 600;
-  -webkit-transition: .2s;
-  transition: .2s;
+  transition: 0.2s;
 }
-
 main .post .post-info .post-cta:hover {
   background-color: #fff;
   color: #12a84e !important;
@@ -234,89 +173,61 @@ main .post .post-info .post-cta:hover {
 #footer .timing {
   background-color: #12a84e;
 }
-
 #footer .timing .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 2em 0;
 }
-
 #footer .timing .time-schedule {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #footer .timing .time-schedule li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 600;
   border-left: 1px solid #fff;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   color: #fff;
 }
-
 #footer .timing .time-schedule li:first-child {
   border: none;
 }
-
 #footer .timing .time-schedule li .day {
   margin-bottom: 1em;
 }
-
 #footer .footer-content {
   background-color: #171717;
   color: #fff;
 }
-
 #footer .footer-content .container {
   padding: 4em 0;
 }
-
 #footer .footer-content h4 {
   color: #12a84e;
   font-weight: 600;
   padding-bottom: 1.5em;
 }
-
 #footer .footer-content ul li {
   margin-bottom: 1em;
 }
-
 #footer .footer-content .fa, #footer .footer-content .fab {
   color: #12a84e;
 }
-
-#footer form input[type='submit'] {
+#footer form input[type=submit] {
   background-color: #12a84e;
   color: #fff;
   border: none;
 }
-
 #footer .copyright {
   font-weight: 600;
   color: #000;
   padding: 2em;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
+
 /*# sourceMappingURL=style.css.map */
